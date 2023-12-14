@@ -1,0 +1,108 @@
+/* App.css */
+.delivery-container {
+  background-color: #7f4e17; /* Muddy orange-brown background */
+  padding: 50px;
+  font-family: 'Comic Sans MS';
+  color: #ffd700; /* Gold text color */
+}
+
+.delivery-header {
+  font-size: 2em;
+  color: #8a2be2; /* Blue Violet text color */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.horrible-image {
+  width: 100%;
+  height: auto;
+  border: 10px dashed #32cd32; /* Lime Green dashed border */
+}
+
+.delivery-content {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #ff69b4; /* Hot Pink background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.delivery-text {
+  width: 30%;
+  height: 100%;
+  background: #ff69b4; /* Hot Pink background */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.delivery-title {
+  color: #00ff00; /* Lime text color */
+}
+
+.delivery-image {
+  width: 50%;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 10px;
+  background: #ff69b4; /* Hot Pink background */
+  border-radius: 10px;
+}
+
+.delivery-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #ff69b4; /* Hot Pink background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.delivery-form label {
+  color: #8b0000; /* Dark Red text color */
+}
+
+.delivery-form select,
+.delivery-form input,
+.delivery-form textarea {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #32cd32; /* Lime Green background */
+  border: 2px solid #32cd32; /* Lime Green border */
+  color: #ff00ff; /* Magenta text color */
+}
+
+.promotion-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #ff69b4; /* Hot Pink background */
+  padding: 30px;
+  border-radius: 20px;
+  color: #8b0000; /* Dark Red text color */
+}
+
+.promotion-title {
+  text-decoration: underline;
+}
+
+.promotion-text {
+  font-size: 1.5em;
+  line-height: 2em;
+  color: #8a2be2; /* Blue Violet text color */
+}
+
+.enroll-button {
+  background-color: #32cd32; /* Lime Green background */
+  color: #ff00ff; /* Magenta text color */
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: transform 1s ease;
+}
+
+.enroll-button:hover {
+  transform: rotate(180deg);
+}
